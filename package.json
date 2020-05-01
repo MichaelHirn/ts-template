@@ -22,7 +22,7 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "test": "jest -maxWorkers=1 --runInBand",
+    "test": "jest --c jest.config.json --maxWorkers=1",
     "test:watch": "npm run test -- --watch",
     "build": "tsc",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
