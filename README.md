@@ -8,6 +8,7 @@ This project comes with the following tools:
 - Code Quality
   - [x] ESLint
   - [x] TypeDoc
+  - [x] Jest (TDD)
   - [ ] GitHub Issue/PR Templates
   - [ ] README templates
 - Code Velocity
