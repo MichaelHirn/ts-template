@@ -28,6 +28,7 @@
     "test:coverage": "npm test -- --collectCoverage",
     "build": "tsc",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "code:analyze": "docker run --interactive --tty --rm --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc codeclimate/codeclimate analyze",
     "docs": "typedoc --out docs src"
   },
   "repository": {
