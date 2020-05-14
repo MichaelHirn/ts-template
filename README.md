@@ -23,6 +23,10 @@ This project comes with the following tools:
 
 Click on the green button above that says "Use this template".
 
+Complete the following todo list:
+
+1. [  ] create [personal access token](https://github.com/settings/tokens) (with `repo` scope) and provide as `GH_TOKEN` secret.
+
 ### Update
 
 To merge any advances that the template makes into your project:
