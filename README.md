@@ -9,7 +9,7 @@ This project comes with the following tools:
   - [x] ESLint
   - [x] TypeDoc
   - [x] Jest (TDD)
-  - [ ] GitHub Issue/PR Templates
+  - [x] GitHub Issue/PR Templates (PR only)
   - [ ] README templates
 - Code Velocity
   - [ ] GitHub Actions (CI/CD)
