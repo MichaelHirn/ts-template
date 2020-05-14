@@ -16,7 +16,13 @@
         "sourceType": "module",
         "project": "./tsconfig.json"
     },
-    "ignorePatterns": ["docs/", "dist/", "node_modules/"],
+    "ignorePatterns": [
+      "docs/",
+      "dist/",
+      "node_modules/",
+      "coverage",
+      "commitlint.config.js"
+    ],
     "rules": {
       "jsdoc/no-types": 1,
       "jsdoc/check-param-names": 1,

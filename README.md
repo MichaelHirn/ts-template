@@ -12,9 +12,9 @@ This project comes with the following tools:
   - [x] GitHub Issue/PR Templates (PR only)
   - [ ] README templates
 - Code Velocity
-  - [ ] GitHub Actions (CI/CD)
+  - [x] GitHub Actions (CI/CD) (CI only)
   - [ ] CodeClimate (CI)
-  - [ ] [commitlint](https://github.com/conventional-changelog/commitlint) (using [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)) (CI)
+  - [x] [commitlint](https://github.com/conventional-changelog/commitlint) (using [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)) (CI)
   - [ ] Semantic Release (CD)
 
 ## Usage
