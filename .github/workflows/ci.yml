@@ -28,7 +28,7 @@ jobs:
     - run: npm test
       env:
         CI: true
-    - run: npm test:coverage
+    - run: npm run test:coverage
       env:
         CI: true
     - name: Publish Test Coverage
