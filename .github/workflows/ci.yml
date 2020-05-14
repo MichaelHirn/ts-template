@@ -28,19 +28,14 @@ jobs:
     - run: npm test
       env:
         CI: true
-    - name: Test & publish code coverage
-      uses: paambaati/codeclimate-action@v2.5.6
-      env:
-        CC_TEST_REPORTER_ID: a4cd9c97e5025913219283623d54f7a9cc7758695eb72de85c47741503f824a9
+    - name: Publish Test Coverage
+      uses: ziishaned/jest-reporter-action@v0.0.1
       with:
-        coverageCommand: npm run test:coverage
-        debug: true
-        coverageLocations:
-          "./coverage/lcov.info:lcov"
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        test-command: "npm run test:coverage"
     - name: Lint Commit Message
       uses: wagoid/commitlint-github-action@v1
       with:
         configFile: ./commitlint.config.js
         failOnWarnings: true
         helpUrl: "https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional#commitlintconfig-conventional"
-
