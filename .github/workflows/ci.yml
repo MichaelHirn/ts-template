@@ -1,0 +1,46 @@
+name: TypeScript CI
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm run lint
+    - run: npm test
+      env:
+        CI: true
+    - name: Test & publish code coverage
+      uses: paambaati/codeclimate-action@v2.5.6
+      env:
+        CC_TEST_REPORTER_ID: a4cd9c97e5025913219283623d54f7a9cc7758695eb72de85c47741503f824a9
+      with:
+        coverageCommand: npm run test:coverage
+        debug: true
+        coverageLocations:
+          "./coverage/lcov.info:lcov"
+    - name: Lint Commit Message
+      uses: wagoid/commitlint-github-action@v1
+      with:
+        configFile: ./commitlint.config.js
+        failOnWarnings: true
+        helpUrl: "https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional#commitlintconfig-conventional"
+
