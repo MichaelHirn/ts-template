@@ -19,10 +19,7 @@ jobs:
           # this is necessary for @semantic-release/git to work with
           # protected branches. See here for more:
           # https://github.com/semantic-release/git/issues/196
-          # if branch is protected use the following command
-          # and provide GH_TOKEN with personal (admin) token
-          # token: ${{ secrets.GH_TOKEN }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Use Node.js
         uses: actions/setup-node@v1
@@ -32,5 +29,5 @@ jobs:
       - name: Semantic Release
         run: npm run semantic-release:ci
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
