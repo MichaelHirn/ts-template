@@ -25,6 +25,7 @@
   "scripts": {
     "test": "jest --c jest.config.json --maxWorkers=1",
     "test:watch": "npm run test -- --watch",
+    "test:coverage": "npm test -- --collectCoverage",
     "build": "tsc",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "docs": "typedoc --out docs src"
