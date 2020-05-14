@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/MichaelHirn/ts-template/compare/v1.0.0...v1.1.0) (2020-05-14)
+
+
+### Features
+
+* **readme:** add install todo list ([dfdd8d5](https://github.com/MichaelHirn/ts-template/commit/dfdd8d5afe7877518e5d47eeace1a66549369725))
+
 ## 1.0.0 (2020-05-14)
 
 
