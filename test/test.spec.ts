@@ -1,6 +1,6 @@
 import { Test } from '../src'
 
-test('valid Test', () => {
-  const a: Test = { name: 'test' }
-  console.log(a)
+test('hello with correct name', () => {
+  const test = new Test('Jon')
+  expect(test.hello()).toBe('Hello Jon')
 })

@@ -28,11 +28,13 @@ jobs:
     - run: npm test
       env:
         CI: true
+    - run: npm test:coverage
+      env:
+        CI: true
     - name: Publish Test Coverage
-      uses: ziishaned/jest-reporter-action@v0.0.1
+      uses: romeovs/lcov-reporter-action@v0.2.16
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        test-command: "npm run test:coverage"
     - name: Lint Commit Message
       uses: wagoid/commitlint-github-action@v1
       with:
