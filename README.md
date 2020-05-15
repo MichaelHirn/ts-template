@@ -19,13 +19,17 @@ This project comes with the following tools:
 
 ## Usage
 
-### Install
+### Install (New Repository)
 
-Click on the green button above that says "Use this template".
+To use this template for a new repository, click on the green button above that says "Use this template".
 
 Complete the following todo list:
 
 1. [  ] create [personal access token](https://github.com/settings/tokens) (with `repo` scope) and provide as `GH_TOKEN` secret.
+
+### Install (Existing Repository)
+
+If you want to apply the files/structure to an already existing repository, follow the steps in the `Update` section below.
 
 ### Update
 
