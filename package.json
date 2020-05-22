@@ -39,7 +39,7 @@
     "semantic-release:ci": "npm install && semantic-release",
     "code:analyze": "docker run --interactive --tty --rm --env CODECLIMATE_CODE=\"$PWD\" --volume \"$PWD\":/code --volume /var/run/docker.sock:/var/run/docker.sock --volume /tmp/cc:/tmp/cc codeclimate/codeclimate analyze",
     "docs:api": "api-extractor run --local",
-    "docs": "npm run docs:api && api-documenter markdown -i etc/tmp -o docs/markdown"
+    "docs": "npm run docs:api && api-documenter markdown -i etc -o docs/markdown"
   },
   "repository": {
     "type": "git",
