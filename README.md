@@ -7,7 +7,7 @@ This project comes with the following tools:
 - TypeScript
 - Code Quality
   - [x] ESLint
-  - [x] TypeDoc
+  - [x] [TSDocs](https://api-extractor.com/)
   - [x] Jest (TDD)
   - [x] GitHub Issue/PR Templates (PR only)
   - [ ] README templates
