@@ -38,5 +38,5 @@ To merge any advances that the template makes into your project:
 ```
 git remote add template git@github.com:MichaelHirn/ts-template.git
 git fetch --all
-git merge template/master --allow-unrelated-histories # or some other branch
+git merge template/master --allow-unrelated-histories --squash
 ```
