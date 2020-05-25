@@ -1,3 +1,16 @@
+## [1.2.0](https://github.com/MichaelHirn/ts-template/compare/v1.1.0...v1.2.0) (2020-05-25)
+
+
+### Features
+
+* **docs:** replace typedocs -> ms/tsdocs ([238e698](https://github.com/MichaelHirn/ts-template/commit/238e6988b3f3d53450e96f0497b02f5c68a351c7))
+
+
+### Bug Fixes
+
+* **docs:** fix npm run docs command ([b76a002](https://github.com/MichaelHirn/ts-template/commit/b76a002c6fa97d2f62f0130f1c41a18f0f2bfb4c))
+* **docs:** set tsconfig removeComments = false ([ff5eb33](https://github.com/MichaelHirn/ts-template/commit/ff5eb33c23d328a650de165ca79a99709ad7946c))
+
 ## [1.1.0](https://github.com/MichaelHirn/ts-template/compare/v1.0.0...v1.1.0) (2020-05-14)
 
 
