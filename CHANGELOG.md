@@ -1,3 +1,10 @@
+### [1.2.1](https://github.com/MichaelHirn/ts-template/compare/v1.2.0...v1.2.1) (2020-06-12)
+
+
+### Bug Fixes
+
+* **package:** add prepublish build hook ([0c9ffa2](https://github.com/MichaelHirn/ts-template/commit/0c9ffa2434d2c4f25017aef8a19157abe5bf7c88))
+
 ## [1.2.0](https://github.com/MichaelHirn/ts-template/compare/v1.1.0...v1.2.0) (2020-05-25)
 
 
