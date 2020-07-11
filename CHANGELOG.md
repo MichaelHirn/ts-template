@@ -1,3 +1,10 @@
+### [1.2.2](https://github.com/MichaelHirn/ts-template/compare/v1.2.1...v1.2.2) (2020-07-11)
+
+
+### Bug Fixes
+
+* **package:** change prepublish -> prepare ([7e67c35](https://github.com/MichaelHirn/ts-template/commit/7e67c356bd3c6ab8e5f226c218c6e7b8ac056e15))
+
 ### [1.2.1](https://github.com/MichaelHirn/ts-template/compare/v1.2.0...v1.2.1) (2020-06-12)
 
 
