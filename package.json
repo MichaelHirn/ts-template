@@ -3,8 +3,8 @@
   "version": "1.2.2",
   "description": "",
   "private": true,
-  "main": "dist/index",
-  "types": "dist/index",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
