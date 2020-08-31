@@ -5,7 +5,10 @@
 ```ts
 
 // @public (undocumented)
-export interface Test {
+export class Test {
+    constructor(name: any);
+    // (undocumented)
+    hello(): string;
     // (undocumented)
     name: string;
 }

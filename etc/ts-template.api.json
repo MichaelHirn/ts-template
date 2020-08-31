@@ -16,20 +16,78 @@
       "name": "",
       "members": [
         {
-          "kind": "Interface",
-          "canonicalReference": "ts-template!Test:interface",
+          "kind": "Class",
+          "canonicalReference": "ts-template!Test:class",
           "docComment": "",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export interface Test "
+              "text": "export declare class Test "
             }
           ],
           "releaseTag": "Public",
           "name": "Test",
           "members": [
             {
-              "kind": "PropertySignature",
+              "kind": "Constructor",
+              "canonicalReference": "ts-template!Test:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `Test` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(name: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "any"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "name",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "ts-template!Test#hello:member(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "hello(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [],
+              "name": "hello"
+            },
+            {
+              "kind": "Property",
               "canonicalReference": "ts-template!Test#name:member",
               "docComment": "",
               "excerptTokens": [
@@ -51,10 +109,11 @@
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              }
+              },
+              "isStatic": false
             }
           ],
-          "extendsTokenRanges": []
+          "implementsTokenRanges": []
         }
       ]
     }
