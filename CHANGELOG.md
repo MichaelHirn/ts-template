@@ -1,3 +1,10 @@
+### [1.2.3](https://github.com/MichaelHirn/ts-template/compare/v1.2.2...v1.2.3) (2020-09-09)
+
+
+### Bug Fixes
+
+* **github:** fix coverage report on master ([d411973](https://github.com/MichaelHirn/ts-template/commit/d411973665646068907bd4393a6c2e9579dfcd56))
+
 ### [1.2.2](https://github.com/MichaelHirn/ts-template/compare/v1.2.1...v1.2.2) (2020-07-11)
 
 
