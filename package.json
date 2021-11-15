@@ -1,6 +1,6 @@
 {
   "name": "ts-template",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "",
   "private": true,
   "main": "dist/src/index.js",

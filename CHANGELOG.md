@@ -1,3 +1,10 @@
+### [1.2.5](https://github.com/MichaelHirn/ts-template/compare/v1.2.4...v1.2.5) (2021-11-15)
+
+
+### Bug Fixes
+
+* update deps ([e18537f](https://github.com/MichaelHirn/ts-template/commit/e18537f1419a37405d554f57bd83042ccde44359))
+
 ### [1.2.4](https://github.com/MichaelHirn/ts-template/compare/v1.2.3...v1.2.4) (2021-07-06)
 
 
