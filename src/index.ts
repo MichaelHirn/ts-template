@@ -1,3 +1,7 @@
+/**
+ *
+ * @beta
+ */
 export class Test {
   name: string
 

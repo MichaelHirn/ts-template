@@ -4,7 +4,7 @@
 
 ```ts
 
-// @public (undocumented)
+// @beta (undocumented)
 export class Test {
     constructor(name: any);
     // (undocumented)
@@ -12,7 +12,6 @@ export class Test {
     // (undocumented)
     name: string;
 }
-
 
 // (No @packageDocumentation comment for this package)
 

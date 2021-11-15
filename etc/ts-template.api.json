@@ -1,7 +1,7 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.17.1",
+    "toolVersion": "7.18.19",
     "schemaVersion": 1004,
     "oldestForwardsCompatibleVersion": 1001,
     "tsdocConfig": {
@@ -172,14 +172,14 @@
         {
           "kind": "Class",
           "canonicalReference": "ts-template!Test:class",
-          "docComment": "",
+          "docComment": "/**\n * @beta\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
               "text": "export declare class Test "
             }
           ],
-          "releaseTag": "Public",
+          "releaseTag": "Beta",
           "name": "Test",
           "members": [
             {
@@ -200,7 +200,7 @@
                   "text": ");"
                 }
               ],
-              "releaseTag": "Public",
+              "releaseTag": "Beta",
               "overloadIndex": 1,
               "parameters": [
                 {
@@ -236,7 +236,7 @@
                 "startIndex": 1,
                 "endIndex": 2
               },
-              "releaseTag": "Public",
+              "releaseTag": "Beta",
               "overloadIndex": 1,
               "parameters": [],
               "name": "hello"
@@ -260,7 +260,7 @@
                 }
               ],
               "isOptional": false,
-              "releaseTag": "Public",
+              "releaseTag": "Beta",
               "name": "name",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
