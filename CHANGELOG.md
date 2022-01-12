@@ -1,3 +1,10 @@
+### [1.2.6](https://github.com/MichaelHirn/ts-template/compare/v1.2.5...v1.2.6) (2022-01-12)
+
+
+### Bug Fixes
+
+* fix eslint dep mismatch ([21c35fc](https://github.com/MichaelHirn/ts-template/commit/21c35fc4c0c23a032ac101107dde322d07d28790))
+
 ### [1.2.5](https://github.com/MichaelHirn/ts-template/compare/v1.2.4...v1.2.5) (2021-11-15)
 
 
